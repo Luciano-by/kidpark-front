@@ -79,12 +79,12 @@ export function Login() {
                   : 'Entrar'}
               </button>
             </form>
-            <div className="mt-8 p-3 bg-white/10 rounded-lg">
+            {/* <div className="mt-8 p-3 bg-white/10 rounded-lg">
               <p className="text-white/50 text-xs font-nunito text-center mb-1">Logins disponíveis</p>
               <p className="text-white/70 text-xs font-nunito text-center font-mono">
                 luciano / 123 · gerente / gerente123 · atendente / atendente123
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="flex-1 bg-[#F5F5F5] flex items-center justify-center">
