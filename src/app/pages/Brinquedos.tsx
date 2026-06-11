@@ -33,7 +33,7 @@ interface FormData {
 
 const EMPTY_FORM: FormData = {
   name: '', type: 'outro', emoji: '🎠',
-  maxCapacity: 1, defaultMinutes: 15, pricePerSession: 1600,
+  maxCapacity: 1, defaultMinutes: 15, pricePerSession: 16,
 }
 
 function ToyModal({
