@@ -3,7 +3,7 @@
 //  ts(2339) 'env' não existe em ImportMeta — resolvido pelo vite-env.d.ts
 //  (certifique-se que src/vite-env.d.ts declara ImportMetaEnv com VITE_API_URL)
 
-const BASE = import.meta.env.VITE_API_URL ?? 'http://localhost:3333/api'
+const BASE = import.meta.env.VITE_API_URL ?? 'https://kidpark-api.vercel.app'
 
 export class ApiError extends Error {
   constructor(public status: number, message: string) {
