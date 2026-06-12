@@ -17,7 +17,7 @@ import { TimeSlot }                     from '../../components/kidpark/TimeSlot'
 // Para evitar o erro ts(2339) em ambientes strict, usamos um cast seguro.
 // const _env = (import.meta as Record<string, unknown>).env as Record<string, string> | undefined
 // const BASE  = _env?.VITE_API_URL ?? 'http://localhost:3333/api'
-const BASE = import.meta.env.VITE_API_URL ?? 'http://localhost:3333/api'
+const BASE = import.meta.env.VITE_API_URL ?? 'https://kidpark-api.vercel.app'
 
 // ── Helper fetch sem autenticação ─────────────────────────────
 async function totemFetch<T>(path: string, opts?: RequestInit): Promise<T> {
